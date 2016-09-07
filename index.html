@@ -1,0 +1,62 @@
+<!-- Página criada no dia 03 de Setembro de 2016 ás 18:08 -->
+<!-- Autor: Nathalino Pachêco Britto -->
+<!DOCTYPE>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Divisão e conquista</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/adicionarCampos.js"></script>
+        <script type="text/javascript" src="js/divisaoConquista.js"></script>
+    </head>
+    
+    <body>
+        
+        <header>
+            <h1>Divisão e Conquista</h1>
+        </header>
+        
+        <section>
+            <article>
+                <h2>Técnica</h2>
+                <p>Esta técnica consiste em dividir um problema maior recursivamente em problemas menores até que o problema possa ser resolvido diretamente. Então a solução do problema inicial é dada através da combinação dos resultados de todos os problemas menores computados. Vários problemas podem ser solucionados através desta técnica, como o da ordenação de números através do algoritmo merge sort e da transformação discreta de Fourier através da transformada rápida de Fourier. Outro problema clássico que pode ser resolvido através desta técnica é a Torre de Hanoi. A técnica soluciona o problema através de três fases:</p>
+                <ol>
+                    <li>Divisão: o problema maior é dividido em problemas menores e os problemas menores obtidos são novamente divididos sucessivamente de maneira recursiva.</li>
+                    <li>Conquista: o resultado do problema é calculado quando o problema é pequeno o suficiente.</li>
+                    <li>Combinação: o resultado dos problemas menores são combinados até que seja obtida a solução do problema maior.</li>
+                </ol>
+                <p>Fonte: <a href="https://pt.wikipedia.org/wiki/Divis%C3%A3o_e_conquista" target="_blank">Wikipedia.org</a></p>
+            </article>
+        </section>
+        
+        <section>
+            <article>
+                <h3>A técnica na prática</h3>
+                <p>Digite número(s) aleatório:</p>
+                <form>
+                    <div id="camposN">
+                        <div id="n0" class="numero">
+                            <input type="text" id="field0" class="fieldNumber">
+                        </div>
+                        <div id="n1" class="numero">
+                            <input type="text" id="field1" class="fieldNumber numero">
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <ul>
+                            <li><input type="button" value="Adicionar campo para digitar número" onclick="addCampos();"></li>
+                            <li><input type="button" value="Ordenar" onclick="corpo();"></li>
+                        </ul>
+                    </div>
+                </form>  
+            </article>
+        </section>
+        
+        <footer>
+            <p>Todos os direitos reservado ao grupo: Grazia Gabriella, Nathalino Pachêco, Mariano Cristino, Lucas Antero, Ícaro Tavares. Atividade desenvolvida para a disciplina de Projeto e Análise de Algoritmo do professor: Mateus Mosca</p>
+        </footer>
+        
+    </body>
+        
+</html>

@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+.numero{
+    float:left;
+    width: 85px;
+    height: 30px;
+    
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.fieldNumber{
+    display: inline;
+    width: 60px;
+    height: 30px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 2px;
+    border: 1px solid #222;
+}
+
+.remover{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/icon/close.png);
+    border: 0px;
+}
+
+.buttons{
+    display: block;
+    clear: left;
+    float: left;
+    margin-top: 20px;
+}
+
+.buttons ul{
+    list-style-type: none;
+}
+
+.buttons ul li{
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    margin-top: 25px;
+}
+
+section, footer{
+    width: 600px;
+    height: auto;
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    
+    display: block;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    overflow: auto;
+}
+
+section h2, h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#camposN{
+    clear: left;
+    float: left;
+}
+
