@@ -99,6 +99,10 @@ section p{
     margin-bottom: 20px;
 }
 
+footer{
+    margin-bottom: 20px;
+}
+
 footer p {
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -110,3 +114,6 @@ footer p {
     float: left;
 }
 
+#Resultado{
+    display: none;
+}

@@ -16,7 +16,10 @@ function corpo(){
         }
     }
 
-    console.log(mergeSort(x));
+    document.getElementById("Resultado").style.display = 'block';
+
+
+    //console.log(mergeSort(x));
 }
 
 function mergeSort(arr){

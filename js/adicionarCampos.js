@@ -1,10 +1,10 @@
 
 var qtdeCampos = 2;
+var nomeID = "n";
 
 //ADICIONANDO CAMPOS:
 function addCampos() { 
        
-    var nomeID = "n";
     var objPai = document.getElementById("camposN");
 
     //Criando o elemento DIV;
@@ -29,7 +29,6 @@ function addCampos() {
 //REMOVENDO CAMPOS:
 function removerCampo(id) {
     
-    var nomeID = "n";
     var objPai = document.getElementById("camposN");
     var objFilho = document.getElementById(nomeID+id);
 
