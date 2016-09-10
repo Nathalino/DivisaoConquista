@@ -46,19 +46,31 @@
                     <div class="buttons">
                         <ul>
                             <li><input type="button" value="Adicionar campo para digitar número" onclick="addCampos();"></li>
-                            <li><input type="button" value="Ordenar" onclick="corpo();"></li>
+                            <li><input type="button" value="Ordenar" onclick="corpo('field');"></li>
                         </ul>
                     </div>
                 </form>  
             </article>
         </section>
         
-        <section>
-            <article>
-                <h3>Resultado da ordenação</h3>
-                <div id="Resultado"></div>
-            </article>
-        </section>
+        <div id="Resultado">
+            <h3>Resultado da ordenação</h3>
+            <ul>
+                <li>Números inseridos:</li>
+                <li id="numerosInserido" class="spacebottom"></li>
+                <li>Números ordenados:</li>
+                <li id="numerosOrdenado" class="spacebottom"></li>
+                <li>Divisão do vetor:</li>
+            </ul>
+            <table>
+                <tr>
+                    <th>Iteração</th>
+                    <th>Esquerda</th>
+                    <th>Direita</th>
+                </tr>
+                <tr id="numerosPartes"></tr>
+            </table>
+        </div>
         
         <footer>
             <p>Todos os direitos reservado ao grupo: Grazia Gabriella, Nathalino Pachêco, Mariano Cristino, Lucas Antero, Ícaro Tavares. Atividade desenvolvida para a disciplina de Projeto e Análise de Algoritmo do professor: Mateus Mosca</p>

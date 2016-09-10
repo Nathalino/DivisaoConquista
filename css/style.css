@@ -58,6 +58,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     margin-bottom: 20px;
 }
 
+.spacebottom{
+    margin-bottom: 15px;
+}
+
 header h1{
     font-family: Arial, sans-serif;
     font-size: 24px;
@@ -67,13 +71,16 @@ header h1{
     margin-top: 25px;
 }
 
-section, footer{
+section, footer, #Resultado{
     width: 600px;
     height: auto;
     
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    
+    padding-left: 10px;
+    padding-right: 10px;    
 }
 
 section{
@@ -99,6 +106,16 @@ section p{
     margin-bottom: 20px;
 }
 
+section ol{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+section ol li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 footer{
     margin-bottom: 20px;
 }
@@ -116,4 +133,20 @@ footer p {
 
 #Resultado{
     display: none;
+}
+
+#Resultado ul{
+    list-style-type: none;
+}
+#Resultado table{
+    border-collapse: separate;
+    border-spacing: 10px;
+    border: 1px solid #000;
+}
+#Resultado table th{
+    border-bottom: 1px solid #000;
+}
+#Resultado table td{
+    padding: 5px 5px 5px 5px;
+    border-bottom: 1px solid #000;
 }
